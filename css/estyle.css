@@ -1,0 +1,54 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: rgb(247, 246, 241);   
+}
+
+img{
+    border-radius: 200px;
+}
+
+header {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+
+}
+
+.personal-info {
+    margin-left: 20px;
+    border-radius: 1px;
+    border-color: #333;
+}
+
+.personal-info p {
+    margin: 5% 0;
+}
+
+.content {
+    display: flex;
+}
+
+.column {
+    flex: 1;
+    margin-right: 30px;
+    
+}
+
+.section {
+    background-color: #e3e6e9;
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 8px;
+}
+
+.section h2 {
+    margin-top: 0;
+    margin-bottom: 10px;
+    color: #333;
+}
+
+.section p {
+    margin: 5px 0;
+    color: #666;
+}
